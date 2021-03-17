@@ -87,6 +87,7 @@ p {
   margin-left: 20px;
 }
 
+/* the main container for the 3 heros or sections */
 .three-sections {
   margin-bottom: 20px;
   padding: 50px;
@@ -96,10 +97,12 @@ p {
   color: #ffffff;
 }
 
+/* imgs within the three-sections container */
 .three-sections img {
   max-height: 200px;
 }
 
+/* headers within the three-sections container */
 .three-sections h2 {
   margin-bottom: 20px;
   font-size: 36px;
@@ -136,6 +139,7 @@ p {
   max-width: 150px;
 }
 
+/* the footer container on the page */
 .footer {
   padding: 30px;
   clear: both;
@@ -144,6 +148,7 @@ p {
   text-align: center;
 }
 
+/* sets headers size inside the footer container */
 .footer h2 {
   font-size: 20px;
 }
