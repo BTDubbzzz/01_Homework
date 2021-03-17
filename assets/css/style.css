@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* sets the background color of the whole page */
+body {
+  background-color: #d9dcd6;
+}
+
+/* all links will be set to this color and have no underline */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* all paragraph text will be this size */
+p {
+  font-size: 16px;
+}
+
+/* sets the size of the header section at the top of the page and what color and font family will be within it */
+.header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+/* sets the display to inline-block so that the span will function in the html */
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+/* sets the color of the inner 3 letters of the page header */
+.header h1 .seo {
+  color: #d9dcd6;
+}
+
+/* sets the details for the navbar inside the header */
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+/* tells the list items not to be bulleted */
+.header nav ul {
+  list-style-type: none;
+}
+
+/* tells the list items how to display in the nav */
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* sets the look of the hero section of the page */
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* the main content stipulations */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* the main container for the 3 heros or sections */
+.content-card {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* imgs within the content-card container */
+.content-card img {
+  max-height: 200px;
+}
+
+/* headers within the content-card container */
+.content-card h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* the aside or benefits section - container structure*/
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+/* sets the details for each item in the benefits container */
+.benefits-items {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* headers within the container items */
+.benefits-items h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* imgs within the container items */
+.benefits-items img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* the footer container on the page */
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+/* sets headers size inside the footer container */
+.footer h2 {
+  font-size: 20px;
+}
