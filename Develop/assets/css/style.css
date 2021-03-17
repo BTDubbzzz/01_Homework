@@ -88,7 +88,7 @@ p {
 }
 
 /* the main container for the 3 heros or sections */
-.section-card {
+.content-card {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -97,13 +97,13 @@ p {
   color: #ffffff;
 }
 
-/* imgs within the section-card container */
-.section-card img {
+/* imgs within the content-card container */
+.content-card img {
   max-height: 200px;
 }
 
-/* headers within the section-card container */
-.section-card h2 {
+/* headers within the content-card container */
+.content-card h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
