@@ -14,4 +14,4 @@ The link should be functional and the only necessary part in order to access the
 
 ## Screenshot
 
-![screenshot of webpage](assets/images/screenshot.jpg)
+md ![screenshot of webpage](./assets/images/screenshot.jpg)
